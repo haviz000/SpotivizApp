@@ -38,11 +38,6 @@ you can know
 
 - ![createplaylist](public/img/create.png)
 
-To fill    ```bash
-    REACT_APP_SPOTIFY_CLIENT_ID= 
-    ``` you can follow tutorial from [Spotify Developer doc](https://developer.spotify.com/documentation/general/guides/authorization/app-settings/) to get your    ```bash
-    CLIENT_ID
-    ```.
 
 ## How to run on local
 
