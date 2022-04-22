@@ -24,33 +24,64 @@ you can know
 # Screenshots
 ## Login Page
 
-![Login](public/img/auth.png)
+- ![Login](public/img/auth.png)
 
 ## Profile Page
 
-![Profile](public/img/profile.png)
+- ![Profile](public/img/profile.png)
 
 ## My Playlist Page
 
-![myplaylist](public/img/myplaylist.png)
+- ![myplaylist](public/img/myplaylist.png)
 
 ## Create playlist Page
 
-![createplaylist](public/img/create.png)
+- ![createplaylist](public/img/create.png)
 
-## Set Up
-Set up the proper environment variables
+To fill    ```bash
+    REACT_APP_SPOTIFY_CLIENT_ID= 
+    ``` you can follow tutorial from [Spotify Developer doc](https://developer.spotify.com/documentation/general/guides/authorization/app-settings/) to get your    ```bash
+    CLIENT_ID
+    ```.
 
-```bash
-REACT_APP_SPOTIFY_CLIENT_ID= 
-```
-To fill REACT_APP_SPOTIFY_CLIENT_ID you can follow tutorial from [Spotify Developer doc](https://developer.spotify.com/documentation/general/guides/authorization/app-settings/) to get your CLIENT ID.
+## How to run on local
 
-## Running App
+- Clone this project
 
-```bash
-git clone https://github.com/haviz000/Spotiviz.git
-cd Spotiviz
-npm install
-npm start
-```
+    ```bash
+    git clone https://github.com/haviz000/Spotiviz.git
+    ```
+
+- Go to the project folder
+
+    ```bash
+    cd Spotiviz
+    ```
+
+- Install dependencies
+
+    ```bash
+    npm install
+    ```
+
+- Setup environment variables
+
+    Create file with name `.env.local` and add the following content:
+
+    ```env
+    REACT_APP_SPOTIFY_CLIENT_ID = <your spotify client id>
+    ```
+
+    To fill  ``` REACT_APP_SPOTIFY_CLIENT_ID ```  you can follow tutorial from [Spotify Developer doc](https://developer.spotify.com/documentation/general/guides/authorization/app-settings/) to get your `CLIENT_ID`
+
+- Run the server
+
+    ```bash
+    npm start
+    ```
+
+- Open <http://localhost:3000> with your browser to see the result.
+
+## Author
+
+- [Mochamad Haviz Tasmara](https://www.linkedin.com/in/haviz-tasmara/)
