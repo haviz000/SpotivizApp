@@ -1,7 +1,7 @@
 
 # 🎵 Spotiviz -A Spotify App by [haviz](https://www.linkedin.com/in/haviz-tasmara/)
 
-Spotiviz is a  web app built using React, Tailwind, Axios, and Spotify API which provides personalised data using your Spotify account and Make a playlist. [visit the website]()
+Spotiviz is a  web app built using React, Tailwind, Axios, and Spotify API which provides personalised data using your Spotify account and Make a playlist. [visit the website](https://spotiviz.vercel.app)
 
 ## Features
 - Using Implicit Grant Flow auth
