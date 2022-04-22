@@ -40,7 +40,6 @@ const Profile = () => {
   }
 
   const Logout = () => {
-    window.location.reload();
     localStorage.removeItem("accessToken");
     localStorage.removeItem("expiredDate");
     localStorage.removeItem("user");
