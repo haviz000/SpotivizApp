@@ -86,7 +86,7 @@ const MyPlaylist = () => {
               <div className='grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-5'>
                 {playlists.map(playlist =>
 
-                  <a  href={playlist.external_urls.spotify}
+                  <a  data-testid="my-playlist" href={playlist.external_urls.spotify}
                     rel="noreferrer"
                     target="_blank" key={playlist.id}>
                     <DoubleCard imageURL={playlist.images[0].url} itemName={playlist.name} subItem={`${playlist.tracks.total} tracks`} />

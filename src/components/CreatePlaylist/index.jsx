@@ -165,8 +165,8 @@ const CreatePlaylist = () => {
             <div className='flex flex-col justify-center'>
               <h3 className='text-2xl heading mr-4'>Search</h3>
               <div className='flex-col '>
-                <form onSubmit={handleSubmit}>
-                  <input onChange={handleInput} data-testid="search-input" placeholder="Artists,songs, or podcast" className='mt-3  py-1 w-max lg:w-80 sm:w-max outline-none bg-transparent border-2 border-gray-600 rounded-full text-gray-400 px-3  focus:border-spotify' type="text" />
+                <form onSubmit={handleSubmit} data-testid="submit">
+                  <input  onChange={handleInput} data-testid="search-input" placeholder="Artists,songs, or podcast" className='mt-3  py-1 w-max lg:w-80 sm:w-max outline-none bg-transparent border-2 border-gray-600 rounded-full text-gray-400 px-3  focus:border-spotify' type="text" />
                 </form>
                 <form className='ml-[10px] justify-center mt-[15px] ' onSubmit={handleSubmitCreate}>
                   <div className="mb-6 ">
@@ -185,7 +185,7 @@ const CreatePlaylist = () => {
           <div>
             <div className='mt-20 w-full '>
 
-              <div className="table flex justify-between w-full lg:pr-60 " data-testid="track-items">
+              <div data-testid="tracks" className="table flex justify-between w-full lg:pr-60 ">
                 <div className="w-screen lg:w-auto flex justify-between text-gray-700 mb-4 tracking-wider text-sm border-gray-800 sticky top-0 pt-8 bg-black border-bottom">
                   <div className='w-12/12 lg:w-8/12 text-left'>TRACK</div>
                   <div className='w-10/12 hidden lg:block text-left'>ALBUM</div>

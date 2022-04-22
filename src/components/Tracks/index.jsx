@@ -7,7 +7,7 @@ const Tracks = ({key,songName,songAlbums,imgUrl,duration,toggleSelect}) => {
         toggleSelect();
     }
     return (
-        <div className="lg:flex text-gray-400 justify-between w-full" key={key}>
+        <div data-testid="track" className="lg:flex text-gray-400 justify-between w-full" key={key}>
             <div className="w-12/12 lg:w-5/12 truncate">
                 <div>
                     <div className='w-full flex items-start mb-7 w-full pr-8 truncate overflow-hidden'>
